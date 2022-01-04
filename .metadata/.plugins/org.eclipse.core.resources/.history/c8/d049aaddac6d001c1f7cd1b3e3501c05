@@ -18,14 +18,10 @@ public class Main {
 		Cliente cliente = new Cliente();
 		
 		
-		try {
-			
-			cliente.AdicionaEndereço(endereco);
-			
-			System.out.println("Tudo certo");
-		}catch (Exception e) {
-			System.out.println("Houve um Erro: " + e.getMessage());
-		}
+		
+		cliente.AdicionaEndereço(endereco);
+		
+		System.out.println("Tudo certo");
 
 	}
 

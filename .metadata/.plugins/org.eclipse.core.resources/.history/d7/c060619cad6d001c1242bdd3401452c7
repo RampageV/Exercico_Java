@@ -12,7 +12,7 @@ public class Main {
 		// Dados do endereço
 		Endereco endereco = new Endereco();
 		
-		endereco.cep = "000000000000000000000";
+		//endereco.cep = "000000000000000000000";
 		
         // Dados do cliente		
 		Cliente cliente = new Cliente();
