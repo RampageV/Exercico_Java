@@ -1,5 +1,7 @@
 package Main;
 
+
+import java.util.Arrays;
 import Modelo.Cliente;
 import Modelo.Endereco;
 
@@ -7,26 +9,27 @@ public class Main {
 
 	public static void main(String[] args) {
 
+	
+		Endereco enderco = new Endereco();
 		
+		enderco.cep = "000000000";
 		
-		// Dados do endereço
-		Endereco endereco = new Endereco();
-		
-		
-		
-        // Dados do cliente		
 		Cliente cliente = new Cliente();
-		
 		
 		try {
 			
-			cliente.AdicionaEndereço(endereco);
-			System.out.println("Tudo certo");
-			
-		}catch (Exception e) {
-			System.out.println("Houve um Erro: " + e.getMessage());
+			cliente.AdicionaEndereço(enderco);
+			System.out.println("Endereço adicionado com sucesso");
+		}catch(Exception e) {
+			System.out.println("Houve um problema: " + e.getMessage());;
 		}
-
+		
+		
+		
+		
+		
 	}
-
 }
+	
+
+
