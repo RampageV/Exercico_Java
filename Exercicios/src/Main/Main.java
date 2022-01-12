@@ -12,7 +12,7 @@ public class Main {
 	
 		Endereco enderco = new Endereco();
 		
-		enderco.cep = "000000000";
+		
 		
 		Cliente cliente = new Cliente();
 		
