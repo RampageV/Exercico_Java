@@ -22,9 +22,15 @@
     <fullyQualifiedTypeName name="javax.swing.JFrame"/>
     <fullyQualifiedTypeName name="Projeto.Funcoes"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="java.lang.Boolean"/>
-    <fullyQualifiedTypeName name="Entidade.Usuario"/>
-    <fullyQualifiedTypeName name="Entidade.Conta"/>
     <fullyQualifiedTypeName name="Servico.Saque"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="Entidade.Usuario"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="Entidade.Conta"/>
+    <fullyQualifiedTypeName name="Entidade.Banco"/>
+    <fullyQualifiedTypeName name="Util.DataBaseConnection"/>
+    <fullyQualifiedTypeName name="Util.APIConnection"/>
+    <fullyQualifiedTypeName name="org.junit.Test"/>
+    <fullyQualifiedTypeName name="org.mockito.Mockito"/>
 </qualifiedTypeNameHistroy>
